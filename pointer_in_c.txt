@@ -1,0 +1,12 @@
+pointer defination ==> A pointer is a variable that contains the address of another variable,we can say the pointers points
+the another variable..
+* == value at adress operator
+& == adress of operator
+
+EX == int a=0; //taking the variable of any type
+
+      int *ptr;  //syntax of pointer variable//data_type *pointer_name//  
+      ptr=&a;   //to save the adress of varaible 'a' into variable 'ptr'
+      
+      printf("%d",ptr);  //print the addres of a 
+      printf("%d",*ptr); //to print the value of variable a  
